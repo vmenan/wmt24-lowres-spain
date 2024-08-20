@@ -1,0 +1,21 @@
+{
+    "model_output_folder": "<PATH INCLUDING THE FOLDER NAME YOU WANT THE MODEL TO BE SAVED>",
+    "tokenizer_ouput_folder":"<PATH INCLUDING THE FOLDER NAME YOU WANT THE TOKENIZER TO BE SAVED>",
+    "train_source_path": "<PATH TO SOURCE FILE>",
+    "train_target_path": "<PATH TO TARGET FILE>",
+    "valid_source_path": "<PATH TO VALIDATION SOURCE FILE>",
+    "valid_target_path": "<PATH TO VALIDATION TARGET FILE>",
+    "model_checkpoint" : "<MODEL CHECKPOINT>",
+    "tokenizer_checkpoint":"alirezamsh/small100",
+    "src_lang": "es",
+    "tgt_lang": "ast",
+    "max_length": "200",
+    "per_device_train_batch_size":"16",
+    "per_device_eval_batch_size":"16",
+    "learning_rate":"5e-5",
+    "weight_decay": "0.00",
+    "num_train_epochs": "5",
+    "eval_steps":"200",
+    "gradient_accumulation_steps": "16"
+  }
+  
